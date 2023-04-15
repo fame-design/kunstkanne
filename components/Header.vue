@@ -1,6 +1,6 @@
 <template>
   <header>
-    <h1>The Title</h1>
+    <h1>Kunstkanne</h1>
     <Navigation></Navigation>
   </header>
 </template>

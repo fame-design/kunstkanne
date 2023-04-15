@@ -1,13 +1,11 @@
 <template>
   <nav>
-    <NuxtLink to="/">willkommen</NuxtLink>
+    <NuxtLink to="/">news</NuxtLink>
     <NuxtLink to="/vita">vita</NuxtLink>
     <NuxtLink to="/animationen">animationen</NuxtLink>
     <NuxtLink to="/gemaelde">gemälde</NuxtLink>
-    <NuxtLink to="/news">news</NuxtLink>
     <NuxtLink to="/kontakt">kontakt</NuxtLink>
-    <NuxtLink to="/links">links</NuxtLink>
-    <NuxtLink to="/datenschutz">Datenschutzerklärung</NuxtLink>
+    <NuxtLink to="/datenschutz">Datenschutz</NuxtLink>
     <NuxtLink to="/impressum">Impressum</NuxtLink>
   </nav>
 </template>

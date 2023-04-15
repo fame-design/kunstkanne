@@ -9,7 +9,7 @@
       <br>
       maler, musiker
     </p>
-    <img src="~/assets/kanne.jpg">
+    <img src="~/assets/img/kanne.jpg" alt="kanne">
   </main>
 </template>
 

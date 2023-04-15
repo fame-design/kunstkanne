@@ -2,7 +2,6 @@
   <nav>
     <NuxtLink to="/">willkommen</NuxtLink>
     <NuxtLink to="/vita">vita</NuxtLink>
-    <NuxtLink to="/ausstellungen">ausstellungen</NuxtLink>
     <NuxtLink to="/animationen">animationen</NuxtLink>
     <NuxtLink to="/gemaelde">gemälde</NuxtLink>
     <NuxtLink to="/news">news</NuxtLink>

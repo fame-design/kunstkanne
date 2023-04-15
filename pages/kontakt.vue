@@ -9,7 +9,7 @@
       E-Mail: <a href="mailto:info@kunstkanne.de">info@kunstkanne.de</a>
     </p>
     <!--suppress HtmlUnknownTarget -->
-    <img src="~/assets/img/kanne_kontakt.jpg" alt="Kontakt">
+    <img src="~/assets/img/kanne_kontakt.jpg" width="125px" alt="Kontakt">
   </main>
 </template>
 

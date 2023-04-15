@@ -1,0 +1,14 @@
+body {
+  font-size: 1.2em;
+  font-family: arial,cursive;
+  @include background(linear-gradient(90deg, snow 1px, #f0f0f0 1px));
+  @include background-size(5px 5px);
+}
+
+main {
+  padding: 20px;
+}
+
+h1 {
+  margin: 0;
+}

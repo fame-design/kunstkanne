@@ -1,6 +1,6 @@
 <template>
   <nav>
-    <NuxtLink to="/">news</NuxtLink>
+    <NuxtLink to="/">start</NuxtLink>
     <NuxtLink to="/vita">vita</NuxtLink>
     <NuxtLink to="/animationen">animationen</NuxtLink>
     <NuxtLink to="/gemaelde">gemälde</NuxtLink>

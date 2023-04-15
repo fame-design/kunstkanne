@@ -42,8 +42,11 @@
 </template>
 
 <script>
+import Picture from "../components/Picture.vue";
+
 export default {
-  name: "gemaelde"
+  name: "gemaelde",
+  components: {Picture}
 }
 </script>
 

@@ -12,9 +12,8 @@
             Sonata<br>
             Reprise<br>
             Coda<br><br>
-            Friedemann Kannengießer<br>
             Trilogie 2007<br>
-            Computeranimation
+            Animation
           </div>
         </td>
         <td valign="top" style="border: 1px solid #a0a0a0;">
@@ -24,9 +23,8 @@
           <div class="schilder">
             <strong>DER GEHEIME KRIEG</strong><br>
             Long Cheng, Laos<br><br>
-            Friedemann Kannengießer<br>
             Trilogie 2011<br>
-            Computeranimation
+            Animation
           </div>
         </td>
       </tr>

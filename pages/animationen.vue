@@ -1,5 +1,7 @@
 <template>
-  <div>animationen</div>
+  <main>
+    animationen
+  </main>
 </template>
 
 <script>

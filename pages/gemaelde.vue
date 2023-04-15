@@ -1,5 +1,7 @@
 <template>
-  <div>gemaelde</div>
+  <main>
+    gemaelde
+  </main>
 </template>
 
 <script>

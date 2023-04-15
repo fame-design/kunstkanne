@@ -2,3 +2,12 @@ body {
   @include background(linear-gradient(90deg, snow 1px, #f0f0f0 1px));
   @include background-size(5px 5px);
 }
+
+@media screen and (min-width: 1000px) {
+
+  #pageWrapper {
+    border: solid black 1px;
+    margin: 10px auto;
+  }
+
+}

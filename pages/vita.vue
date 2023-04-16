@@ -1,6 +1,6 @@
 <template>
   <main>
-    <p>
+    <p class="plain">
       friedemann kannengießer studierte bis
       1973 kirchenmusik an der musikhochschule lübeck. seit 1976 ist er
       kirchenmusiker in hamburg eimsbüttel, zunächst an der st. stephanus-

@@ -1,10 +1,10 @@
 <template>
   <main>
-    <p>
+    <p class="plain">
       Friedemann Kannengießer<br />
       99974 M&uuml;hlhausen / Th&uuml;ringen
     </p>
-    <p>
+    <p class="plain">
       Telefon: 0175-9264073<br />
       E-Mail: <a href="mailto:info@kunstkanne.de">info@kunstkanne.de</a>
     </p>

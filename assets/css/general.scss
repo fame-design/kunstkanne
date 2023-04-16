@@ -1,6 +1,4 @@
 body {
-  margin: 0px;
-  padding: 0px;
   font-size: 1.2em;
   font-family: arial,cursive;
   @include background(linear-gradient(90deg, snow 1px, #f0f0f0 1px));
@@ -14,4 +12,17 @@ main {
 
 h1 {
   margin: 0;
+}
+
+p.plain {
+  margin: 19.200px 0!important;
+}
+
+h3.plain {
+  margin: 22.464px 0!important;
+}
+
+ul.plain {
+  padding-inline-start: 40px;
+  //padding-left: 40px;
 }

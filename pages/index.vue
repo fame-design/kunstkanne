@@ -1,6 +1,6 @@
 <template>
   <main>
-    <p>
+    <p class="plain">
       herzlich willkommen<br>
       bei<br>
       kunstkanne,<br>
@@ -11,8 +11,8 @@
     </p>
     <!--suppress HtmlUnknownTarget -->
     <img src="~/assets/img/kanne.jpg" alt="kanne">
-    <p>besuchen Sie auch meine kirchenmusikseite!</p>
-    <p><a href="http://www.orgelkanne.de/"><span style="color: #0000ff">www.orgelkanne.de</span></a></p>
+    <p class="plain">besuchen Sie auch meine kirchenmusikseite!</p>
+    <p class="plain"><a href="http://www.orgelkanne.de/"><span style="color: #0000ff">www.orgelkanne.de</span></a></p>
     <div>
       <strong>KONZERTE </strong>
       <a href="https://orgelkanne.de/index.php/konzerte/" target="_blank">

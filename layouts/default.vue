@@ -11,7 +11,7 @@ import Footer from "../components/Footer.vue";
 </script>
 <style scoped>
   #pageWrapper {
-    max-width: 1000px;
+    max-width: 795px;
     background-color: #c6d9f1;
   }
 </style>

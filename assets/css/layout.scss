@@ -3,7 +3,7 @@ body {
   @include background-size(5px 5px);
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 795px) {
 
   #pageWrapper {
     border: solid black 1px;

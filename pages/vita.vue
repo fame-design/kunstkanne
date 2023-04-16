@@ -2,7 +2,7 @@
   <main>
     <p class="plain">
       Friedemann Kannengießer studierte bis 1973 Kirchenmusik an der Musikhochschule Lübeck.
-      Seit 1976 war er Kirchenmusiker in Hamburg Eimsbüttel, zunächst an der St. Stephanus-Kirche
+      Seit 1976 war er Kirchenmusiker in Hamburg-Eimsbüttel, zunächst an der St. Stephanus-Kirche
       und von 1999 bis 2017 an der Christuskirche.
     <p>
     <p class="plain">
@@ -16,7 +16,7 @@
       Die ersten kleinen Ausstellungen unter dem Motto
       „Augenblick” konnte man erst 2000 in der Villa im Park in Hamburg, 2003
       in der Pfarrkirche Lüdershagen in Vorpommern und 2004 und 2011
-      (Trilogien) in der Christuskirche Hamburg Eimsbüttel sehen.
+      (Trilogien) in der Christuskirche Hamburg-Eimsbüttel sehen.
     <p>
     <p class="plain">
       Seit dem Zeitalter des Computers entdeckte Friedemann Kannengießer zunehmend

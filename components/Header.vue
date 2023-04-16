@@ -18,4 +18,20 @@ export default {
   header{
     background-color: #FF9933;
   }
+
+  @media screen and (min-width: 795px) {
+
+    header {
+      height: 215px;
+      background-image: url("~/assets/img/layout/kopf.jpg");
+    }
+
+    h1{
+      display: none;
+    }
+
+    nav{
+      padding-top: 192px;
+    }
+  }
 </style>

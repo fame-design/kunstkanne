@@ -1,22 +1,28 @@
 <template>
   <main>
     <p class="plain">
-      friedemann kannengießer studierte bis
-      1973 kirchenmusik an der musikhochschule lübeck. seit 1976 ist er
-      kirchenmusiker in hamburg eimsbüttel, zunächst an der st. stephanus-
-      kirche und von 1999 bis 2017 an der christuskirche. schon in seiner jugend
-      widmet er sich neben der musik auch als autodidakt der plein&nbsp;air
-      malerei und der abstrakten kunst. unter seinem spitznamen kanne
-      entstanden bereits in den 1960-jahren erste werke. es folgten studien
-      bei famous - artists - school und reliev - studien bei ulrich pistor in
-      ortenberg und gießen. die ersten kleinen austellungen unter dem motto
-      „augenblick” konnte man erst 2000 in der villa im park in hamburg, 2003
-      in der pfarrkirche lüdershagen in vorpommern und 2004 und 2011
-      (trilogien) in der christuskirche hamburg eimsbüttel sehen. seit dem
-      zeitalter des computers entdeckte friedemann kannengießer zunehmend auch
-      die künstlerischen möglichkeiten mit digitalen mitteln. neben seiner
-      engagierten arbeit als kirchenmusiker ist so über jahrzehnte ein
-      fruchtbarer bereich des ausgleichs entstanden.
+      Friedemann Kannengießer studierte bis 1973 Kirchenmusik an der Musikhochschule Lübeck.
+      Seit 1976 war er Kirchenmusiker in Hamburg Eimsbüttel, zunächst an der St. Stephanus-Kirche
+      und von 1999 bis 2017 an der Christuskirche.
+    <p>
+    <p class="plain">
+      Schon in seiner Jugend widmet er sich neben der Musik auch als Autodidakt der Plein Air Malerei
+      und der abstrakten Kunst. Unter seinem Spitznamen Kanne
+      entstanden bereits in den 1960-Jahren erste Werke. Es folgten Studien
+      bei Famous - Artists - School und Relief-Studien bei Ulrich Pistor in
+      Ortenberg und Gießen.
+    <p>
+    <p class="plain">
+      Die ersten kleinen Ausstellungen unter dem Motto
+      „Augenblick” konnte man erst 2000 in der Villa im Park in Hamburg, 2003
+      in der Pfarrkirche Lüdershagen in Vorpommern und 2004 und 2011
+      (Trilogien) in der Christuskirche Hamburg Eimsbüttel sehen.
+    <p>
+    <p class="plain">
+      Seit dem Zeitalter des Computers entdeckte Friedemann Kannengießer zunehmend
+      auch die künstlerischen Möglichkeiten mit digitalen Mitteln. Neben seiner
+      engagierten Arbeit als Kirchenmusiker ist so über Jahrzehnte ein
+      fruchtbarer Bereich des Ausgleichs entstanden.
     </p>
   </main>
 </template>
@@ -29,6 +35,6 @@ export default {
 
 <style scoped>
   p {
-    text-align: justify;
+    text-align: center;
   }
 </style>

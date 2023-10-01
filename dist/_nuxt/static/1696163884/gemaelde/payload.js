@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/gemaelde", {data:[{}],fetch:{},mutations:void 0});

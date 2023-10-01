@@ -1,32 +1,33 @@
+<!--suppress HtmlUnknownTarget -->
 <template>
   <main>
     <div>
-      <img src="~/assets/img/gemaelde/Ukraine.jpg"><br>
+      <img src="~/assets/img/gemaelde/Ukraine.jpg" alt="Ukraine"><br>
       <div class="schilder">Ukraine<br>2023, Aquarell</div>
     </div>
 
     <div>
-      <img src="~/assets/img/gemaelde/Muehlhausen.jpg"><br>
+      <img src="~/assets/img/gemaelde/Muehlhausen.jpg" alt="Muehlhausen"><br>
       <div class="schilder">M&uuml;hlhausen<br>2023, Aquarell</div>
     </div>
 
     <div>
-      <img src="~/assets/img/gemaelde/Rudi_Dutschke.jpg"><br>
+      <img src="~/assets/img/gemaelde/Rudi_Dutschke.jpg" alt="Rudi_Dutschke"><br>
       <div class="schilder">Rudi Dutschke<br>2023, Aquarell</div>
     </div>
 
     <div>
-      <img src="~/assets/img/gemaelde/doppelkapelle.png"><br>
-      <div class="schilder">Doppelkapelle<br>St. Crucis in Landsberg<br>2003, Pastel</div>
+      <img src="~/assets/img/gemaelde/doppelkapelle.png" alt="doppelkapelle"><br>
+      <div class="schilder">Doppelkapelle<br>St. Crucis in Landsberg<br>2002, Pastel</div>
     </div>
 
     <div>
-      <img src="~/assets/img/gemaelde/rethimnon.png"><br>
+      <img src="~/assets/img/gemaelde/rethimnon.png" alt="rethimnon"><br>
       <div class="schilder">Rethimnon<br>Kreta<br>2000, Aquarell</div>
     </div>
 
     <div>
-      <img src="~/assets/img/gemaelde/dom.png"><br>
+      <img src="~/assets/img/gemaelde/dom.png" alt="dom"><br>
       <div class="schilder">Dom<br>zu Meißen<br>2002, Pastel</div>
     </div>
   </main>

@@ -2,6 +2,10 @@
 <template>
   <main>
     <div>
+      <img src="~/assets/img/gemaelde/CONFITEOR.jpg" alt="CONFITEOR"><br>
+      <div class="schilder">Kapelle Pfarrerblock KZ Dachau<br>Befreiung vor 80 Jahren<br>2025, Aquarell</div>
+    </div>
+    <div>
       <img src="~/assets/img/gemaelde/Ukraine.jpg" alt="Ukraine"><br>
       <div class="schilder">Ukraine<br>2023, Aquarell</div>
     </div>

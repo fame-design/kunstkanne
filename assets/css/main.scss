@@ -1,7 +1,8 @@
-@import "~compass-mixins/lib/compass/css3";
+// Removed compass-mixins import as it's causing issues in Nuxt 3
+// If you need compass mixins, install and import them properly
 
-@import "general";
-@import "layout";
-@import "fonts";
+@use "general";
+@use "layout";
+@use "fonts";
 
 

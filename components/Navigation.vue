@@ -4,13 +4,13 @@
       <span :class="{ open }">&#9776;</span>
     </button>
     <div class="links" :class="{ open }">
-      <NuxtLink to="/">start</NuxtLink>
-      <NuxtLink to="/vita">vita</NuxtLink>
-      <NuxtLink to="/animationen">animationen</NuxtLink>
-      <NuxtLink to="/gemaelde">gemälde</NuxtLink>
-      <NuxtLink to="/kontakt">kontakt</NuxtLink>
-      <NuxtLink to="/datenschutz">Datenschutz</NuxtLink>
-      <NuxtLink to="/impressum">Impressum</NuxtLink>
+      <NuxtLink to="/" @click="open = false">start</NuxtLink>
+      <NuxtLink to="/vita" @click="open = false">vita</NuxtLink>
+      <NuxtLink to="/animationen" @click="open = false">animationen</NuxtLink>
+      <NuxtLink to="/gemaelde" @click="open = false">gemälde</NuxtLink>
+      <NuxtLink to="/kontakt" @click="open = false">kontakt</NuxtLink>
+      <NuxtLink to="/datenschutz" @click="open = false">Datenschutz</NuxtLink>
+      <NuxtLink to="/impressum" @click="open = false">Impressum</NuxtLink>
     </div>
   </nav>
 </template>
@@ -77,12 +77,10 @@ nav {
     /* position: static; */
     flex-direction: row;
     gap: 0 12px;
-    top: 215px;
     /* background: none; */
-    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fceabb+0,fccd4d+50,f8b500+51,fbdf93+100;Orange+3D+%235 */
-    background: linear-gradient(to bottom,  #fceabb 0%,#fccd4d 50%,#f8b500 51%,#fbdf93 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-
-
+    top: 215px;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffc578+0,fb9d23+100;Orange+3D+%233 */
+    background: linear-gradient(to bottom,  #ffc578 0%,#fb9d23 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     box-shadow: none;
     padding: 0;
   }

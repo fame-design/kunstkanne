@@ -40,11 +40,8 @@
 </template>
 
 <script>
-import Picture from "../components/Picture.vue";
-
 export default {
-  name: "gemaelde",
-  components: {Picture}
+  name: "gemaelde"
 }
 </script>
 

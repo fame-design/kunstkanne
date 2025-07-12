@@ -6,11 +6,8 @@
 </template>
 
 <script>
-import Navigation from "./Navigation.vue";
-
 export default {
-  name: "Header",
-  components: {Navigation}
+  name: "Header"
 }
 </script>
 

@@ -1,5 +1,11 @@
+import { join } from 'path'
+
 export default defineNuxtConfig({
+  compatibilityDate: '2025-07-12',
   // Target: Only 'static' or 'server' in Nuxt 2, in Nuxt 3 use 'ssr: false' for static
+  future: {
+    compatibilityVersion: 4,
+  },
   ssr: false, // Set to false if you want a static site
   app: {
     baseURL: '/kunstkanne/',
@@ -23,7 +29,7 @@ export default defineNuxtConfig({
     }
   },
   css: [
-    '~/assets/css/main.scss'
+    join(__dirname, 'assets/css/main.scss')
   ],
   components: true,
   modules: [

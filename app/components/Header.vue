@@ -21,7 +21,7 @@ export default {
 
     header {
       height: 215px;
-      background-image: url("~/assets/img/layout/kopf.jpg");
+      background-image: url("/img/layout/kopf.jpg");
     }
 
     h1{

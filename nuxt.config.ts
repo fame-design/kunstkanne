@@ -29,6 +29,7 @@ export default defineNuxtConfig({
     }
   },
   css: [
+    join(__dirname, 'assets/css/fonts.scss'),
     join(__dirname, 'assets/css/main.scss')
   ],
   components: true,

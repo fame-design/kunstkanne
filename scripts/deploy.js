@@ -7,12 +7,14 @@ const config = {
   password: process.env.FTP_PASS,
   host: process.env.FTP_HOST,
   port: 21,
-  localRoot: __dirname + "/../dist",
-  remoteRoot: "/httpdocs/pages/kunstkanne/nuxt/",
+  localRoot: __dirname + "/../.output/public",
+  remoteRoot: "/", // Direkt ins Root-Verzeichnis hochladen
+  include: ['*', '**/*'], // Alle Dateien und Unterordner hochladen
   deleteRemote: true,
   forcePasv: true,
 };
 
+console.log('FTP-Deploy Konfiguration:', config);
 ftpDeploy
   .deploy(config)
   .then(res => console.log("finished:", res))

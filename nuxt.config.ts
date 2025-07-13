@@ -8,7 +8,7 @@ export default defineNuxtConfig({
   },
   ssr: false, // Set to false if you want a static site
   app: {
-    baseURL: '/kunstkanne/',
+    baseURL: '/', // Seite wird im Root ausgeliefert
     head: {
       title: 'kunstkanne',
       htmlAttrs: {

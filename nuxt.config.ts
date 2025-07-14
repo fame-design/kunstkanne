@@ -36,7 +36,5 @@ export default defineNuxtConfig({
   modules: [
     // Add Nuxt 3 compatible modules here
   ],
-  build: {
-    // Add custom build options if needed
-  }
+  // Entferne publicPath, da es in Nuxt 3 nicht unterstützt wird
 }) 

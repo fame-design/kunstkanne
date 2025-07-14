@@ -13,6 +13,13 @@ function rewriteLinksInFile(filePath) {
   fs.writeFileSync(filePath, content, 'utf8');
 }
 
+function rewriteNuxtPathsInFile(filePath) {
+  let content = fs.readFileSync(filePath, 'utf8');
+  // Ersetze alle /_nuxt/ durch /kunstkanne/_nuxt/
+  content = content.replace(/\/_nuxt\//g, '/kunstkanne/_nuxt/');
+  fs.writeFileSync(filePath, content, 'utf8');
+}
+
 function walk(dir) {
   fs.readdirSync(dir).forEach(file => {
     const fullPath = path.join(dir, file);
@@ -20,6 +27,9 @@ function walk(dir) {
       walk(fullPath);
     } else if (file.endsWith('.html')) {
       rewriteLinksInFile(fullPath);
+      rewriteNuxtPathsInFile(fullPath);
+    } else if (file.endsWith('.js') || file.endsWith('.json')) {
+      rewriteNuxtPathsInFile(fullPath);
     }
   });
 }

@@ -9,7 +9,9 @@
     "generate": "nuxt generate",
     "predeploy": "nuxt generate",
     "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup",
-    "deploy:ftp": "node scripts/deploy.js"
+    "deploy:ftp": "node scripts/deploy.js",
+    "rewrite-links": "node scripts/rewrite-links.js .output/public",
+    "deploy:ghpages": "BASE_URL=/kunstkanne/ nuxi generate && npm run rewrite-links && push-dir --dir=.output/public --branch=gh-pages --cleanup"
   },
   "dependencies": {
     "compass-mixins": "^0.12.12",

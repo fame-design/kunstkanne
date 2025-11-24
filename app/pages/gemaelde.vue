@@ -3,6 +3,11 @@
   <main>
 
     <div>
+      <img src="/img/gemaelde/Orange_the_World.jpg" alt="CONFITEOR"><br>
+      <div class="schilder">Orange the World<br>(2025)</div>
+    </div>
+
+    <div>
       <img src="/img/gemaelde/CONFITEOR.jpg" alt="CONFITEOR"><br>
       <div class="schilder">Kapelle Pfarrerblock KZ Dachau<br>Befreiung vor 80 Jahren<br>2025, Aquarell</div>
     </div>

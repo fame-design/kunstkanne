@@ -15,5 +15,5 @@
       "@/*": ["./*"]
     }
   },
-  "exclude": ["node_modules", ".output", ".nuxt", "dist"]
+  "exclude": ["node_modules", ".output", ".nuxt", "dist", "scripts"]
 }

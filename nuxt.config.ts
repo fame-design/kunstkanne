@@ -1,14 +1,11 @@
 import { join } from 'path'
 
 export default defineNuxtConfig({
-  compatibilityDate: '2025-07-12',
+  compatibilityDate: '2025-12-26',
   // Target: Only 'static' or 'server' in Nuxt 2, in Nuxt 3 use 'ssr: false' for static
-  future: {
-    compatibilityVersion: 4,
-  },
   ssr: false, // Set to false if you want a static site
   app: {
-    baseURL: '/kunstkanne/',
+    baseURL: process.env.npm_lifecycle_event === 'deploy:ghpages' ? '/kunstkanne/' : '/',
     head: {
       title: 'kunstkanne',
       htmlAttrs: {

@@ -10,7 +10,7 @@
       maler, musiker
     </p>
     <!--suppress HtmlUnknownTarget -->
-    <img src="~/assets/img/kanne.jpg" alt="kanne">
+    <img src="/img/kanne.jpg" alt="kanne">
     <p class="plain">besuchen Sie auch meine kirchenmusikseite!</p>
     <p class="plain"><a href="http://www.orgelkanne.de/"><span style="color: #0000ff">www.orgelkanne.de</span></a></p>
     <div>

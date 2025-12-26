@@ -3,24 +3,26 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "nuxt",
+    "dev": "nuxt dev",
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
     "predeploy": "nuxt generate",
-    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
+    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup",
+    "deploy:ftp": "node scripts/deploy.js",
+    "rewrite-links": "node scripts/rewrite-links.js .output/public",
+    "deploy:ghpages": "BASE_URL=/kunstkanne/ nuxi generate && npm run rewrite-links && push-dir --dir=.output/public --branch=gh-pages --cleanup"
   },
   "dependencies": {
     "compass-mixins": "^0.12.12",
     "core-js": "^3.25.3",
-    "nuxt": "^2.15.8",
+    "nuxt": "^3.17.5",
     "push-dir": "^0.4.1",
-    "vue": "^2.7.10",
-    "vue-server-renderer": "^2.7.10",
-    "vue-template-compiler": "^2.7.10"
+    "vuetify": "^3.8.11"
   },
   "devDependencies": {
-    "@nuxtjs/vuetify": "^1.12.3",
+    "dotenv": "^17.2.0",
+    "ftp-deploy": "^2.4.7",
     "sass": "^1.62.0",
     "sass-loader": "^10.4.1"
   }

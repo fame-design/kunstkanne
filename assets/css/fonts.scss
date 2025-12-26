@@ -1,12 +1,10 @@
+@font-face {
+  font-family: 'Vivaldi-Regular';
+  src: url('/fonts/vivaldi.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
 h1 {
-  font-family: 'vivaldi-regular', 'Segoe Script', 'sans-serif';
-
-  @font-face {
-    font-family: 'vivaldi-regular';
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: url('~assets/fonts/vivaldi.ttf') format('truetype');
-  }
-
+  font-family: 'Vivaldi-Regular', 'Segoe Script', 'sans-serif';
 }

@@ -1,11 +1,12 @@
 body {
   font-size: 1.2em;
   font-family: arial,cursive;
-  @include background(linear-gradient(90deg, snow 1px, #f0f0f0 1px));
-  @include background-size(5px 5px);
+  background: linear-gradient(90deg, snow 1px, #f0f0f0 1px);
+  background-size: 5px 5px;
 }
 
 main {
+  margin-top: 20px;
   padding: 20px;
   min-height: 50vh;
 }

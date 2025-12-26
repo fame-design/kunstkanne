@@ -16,7 +16,7 @@
   "dependencies": {
     "compass-mixins": "^0.12.12",
     "core-js": "^3.25.3",
-    "nuxt": "^3.17.5",
+    "nuxt": "^4.2.2",
     "push-dir": "^0.4.1",
     "vuetify": "^3.8.11"
   },

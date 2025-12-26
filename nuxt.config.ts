@@ -5,7 +5,7 @@ export default defineNuxtConfig({
   // Target: Only 'static' or 'server' in Nuxt 2, in Nuxt 3 use 'ssr: false' for static
   ssr: false, // Set to false if you want a static site
   app: {
-    baseURL: process.env.BASE_URL || '/',
+    baseURL: process.env.npm_lifecycle_event === 'deploy:ghpages' ? '/kunstkanne/' : '/',
     head: {
       title: 'kunstkanne',
       htmlAttrs: {
